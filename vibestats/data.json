@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T04:53:18Z",
+  "generated_at": "2026-07-12T05:15:51Z",
   "username": "Romboter",
   "days": {
     "2026-04-17": {
@@ -612,6 +612,51 @@
           "input_tokens": 15423,
           "output_tokens": 71381,
           "cache_creation_tokens": 160779
+        }
+      }
+    },
+    "2026-07-12": {
+      "sessions": 12,
+      "active_minutes": 1,
+      "input_tokens": 642,
+      "output_tokens": 74952,
+      "cache_read_tokens": 14560814,
+      "cache_creation_tokens": 895192,
+      "models": {
+        "claude-haiku-4-5-20251001": 77,
+        "claude-opus-4-8": 19,
+        "claude-sonnet-5": 74856
+      },
+      "longest_session_minutes": 1,
+      "message_count": 434,
+      "tool_uses": 213,
+      "harnesses": {
+        "claude": {
+          "input_tokens": 642,
+          "output_tokens": 74952,
+          "cache_creation_tokens": 895192
+        }
+      }
+    },
+    "2026-07-11": {
+      "sessions": 13,
+      "active_minutes": 13,
+      "input_tokens": 14823,
+      "output_tokens": 434066,
+      "cache_read_tokens": 117955522,
+      "cache_creation_tokens": 1798327,
+      "models": {
+        "claude-haiku-4-5-20251001": 23,
+        "claude-sonnet-5": 434043
+      },
+      "longest_session_minutes": 10,
+      "message_count": 2558,
+      "tool_uses": 918,
+      "harnesses": {
+        "claude": {
+          "input_tokens": 14823,
+          "output_tokens": 434066,
+          "cache_creation_tokens": 1798327
         }
       }
     },
@@ -1407,6 +1452,20 @@
       "prs": 1,
       "reviews": 0,
       "total": 114
+    },
+    "2026-07-11": {
+      "commits": 0,
+      "issues": 0,
+      "prs": 1,
+      "reviews": 0,
+      "total": 84
+    },
+    "2026-07-12": {
+      "commits": 0,
+      "issues": 0,
+      "prs": 0,
+      "reviews": 0,
+      "total": 1
     }
   }
 }
