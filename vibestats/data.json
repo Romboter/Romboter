@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T04:57:54Z",
+  "generated_at": "2026-07-22T04:57:34Z",
   "username": "Romboter",
   "days": {
     "2025-11-27": {
@@ -664,6 +664,27 @@
         }
       }
     },
+    "2026-07-22": {
+      "sessions": 2,
+      "active_minutes": 1,
+      "input_tokens": 579,
+      "output_tokens": 159873,
+      "cache_read_tokens": 42156934,
+      "cache_creation_tokens": 399808,
+      "models": {
+        "claude-sonnet-5": 159873
+      },
+      "longest_session_minutes": 1,
+      "message_count": 1519,
+      "tool_uses": 271,
+      "harnesses": {
+        "claude": {
+          "input_tokens": 579,
+          "output_tokens": 159873,
+          "cache_creation_tokens": 399808
+        }
+      }
+    },
     "2026-07-10": {
       "sessions": 48,
       "active_minutes": 115,
@@ -834,23 +855,24 @@
       }
     },
     "2026-07-21": {
-      "sessions": 1,
+      "sessions": 2,
       "active_minutes": 0,
-      "input_tokens": 410,
-      "output_tokens": 70758,
-      "cache_read_tokens": 28661220,
-      "cache_creation_tokens": 306627,
+      "input_tokens": 645,
+      "output_tokens": 139632,
+      "cache_read_tokens": 62667816,
+      "cache_creation_tokens": 672885,
       "models": {
-        "claude-sonnet-5": 70758
+        "claude-opus-4-8": 16,
+        "claude-sonnet-5": 139616
       },
       "longest_session_minutes": 0,
-      "message_count": 1104,
-      "tool_uses": 186,
+      "message_count": 1691,
+      "tool_uses": 291,
       "harnesses": {
         "claude": {
-          "input_tokens": 410,
-          "output_tokens": 70758,
-          "cache_creation_tokens": 306627
+          "input_tokens": 645,
+          "output_tokens": 139632,
+          "cache_creation_tokens": 672885
         }
       }
     },
@@ -1675,7 +1697,14 @@
       "issues": 0,
       "prs": 0,
       "reviews": 0,
-      "total": 11
+      "total": 48
+    },
+    "2026-07-22": {
+      "commits": 0,
+      "issues": 0,
+      "prs": 0,
+      "reviews": 0,
+      "total": 8
     }
   }
 }
