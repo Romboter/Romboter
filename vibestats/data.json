@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T04:55:13Z",
+  "generated_at": "2026-07-26T05:20:59Z",
   "username": "Romboter",
   "days": {
     "2026-06-23": {
@@ -631,23 +631,31 @@
       }
     },
     "2026-07-25": {
-      "sessions": 1,
-      "active_minutes": 1,
-      "input_tokens": 40,
-      "output_tokens": 10098,
-      "cache_read_tokens": 1394380,
-      "cache_creation_tokens": 102731,
+      "sessions": 12,
+      "active_minutes": 3,
+      "input_tokens": 42412,
+      "output_tokens": 327132,
+      "cache_read_tokens": 91180566,
+      "cache_creation_tokens": 2107796,
       "models": {
-        "claude-sonnet-5": 10098
+        "claude-haiku-4-5-20251001": 66,
+        "claude-opus-5": 24,
+        "claude-sonnet-5": 323859,
+        "gpt-5.6-luna": 3183
       },
-      "longest_session_minutes": 1,
-      "message_count": 118,
-      "tool_uses": 17,
+      "longest_session_minutes": 2,
+      "message_count": 2523,
+      "tool_uses": 487,
       "harnesses": {
         "claude": {
-          "input_tokens": 40,
-          "output_tokens": 10098,
-          "cache_creation_tokens": 102731
+          "input_tokens": 1244,
+          "output_tokens": 323949,
+          "cache_creation_tokens": 2107796
+        },
+        "codex": {
+          "input_tokens": 41168,
+          "output_tokens": 3183,
+          "cache_creation_tokens": 0
         }
       }
     },
@@ -1777,11 +1785,11 @@
       "total": 11
     },
     "2026-07-25": {
-      "commits": 0,
+      "commits": 1,
       "issues": 0,
       "prs": 0,
       "reviews": 0,
-      "total": 1
+      "total": 70
     }
   }
 }
