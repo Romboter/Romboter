@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:52:41Z",
+  "generated_at": "2026-10-11T07:59:27Z",
   "username": "Romboter",
   "days": {
     "2025-11-27": {
@@ -1390,25 +1390,53 @@
         }
       }
     },
-    "2026-10-10": {
+    "2026-10-11": {
       "sessions": 2,
-      "active_minutes": 1,
-      "input_tokens": 174,
-      "output_tokens": 57214,
-      "cache_read_tokens": 7924725,
-      "cache_creation_tokens": 168159,
+      "active_minutes": 0,
+      "input_tokens": 202,
+      "output_tokens": 133754,
+      "cache_read_tokens": 13199836,
+      "cache_creation_tokens": 351297,
       "models": {
-        "claude-haiku-5-5": 50,
-        "claude-sonnet-5-5": 57164
+        "claude-sonnet-5-5": 133754
       },
-      "longest_session_minutes": 1,
-      "message_count": 500,
-      "tool_uses": 65,
+      "longest_session_minutes": 0,
+      "message_count": 688,
+      "tool_uses": 95,
       "harnesses": {
         "claude": {
-          "input_tokens": 174,
-          "output_tokens": 57214,
-          "cache_creation_tokens": 168159
+          "input_tokens": 202,
+          "output_tokens": 133754,
+          "cache_creation_tokens": 351297
+        }
+      }
+    },
+    "2026-10-10": {
+      "sessions": 8,
+      "active_minutes": 8,
+      "input_tokens": 99472,
+      "output_tokens": 455533,
+      "cache_read_tokens": 79241170,
+      "cache_creation_tokens": 1166139,
+      "models": {
+        "gpt-5.6-luna": 5928,
+        "claude-haiku-5-5": 50,
+        "claude-opus-5-5": 502,
+        "claude-sonnet-5-5": 449053
+      },
+      "longest_session_minutes": 6,
+      "message_count": 2850,
+      "tool_uses": 443,
+      "harnesses": {
+        "codex": {
+          "input_tokens": 98506,
+          "output_tokens": 5928,
+          "cache_creation_tokens": 0
+        },
+        "claude": {
+          "input_tokens": 966,
+          "output_tokens": 449605,
+          "cache_creation_tokens": 1166139
         }
       }
     },
@@ -2427,7 +2455,14 @@
       "issues": 0,
       "prs": 0,
       "reviews": 0,
-      "total": 25
+      "total": 110
+    },
+    "2026-10-11": {
+      "commits": 0,
+      "issues": 0,
+      "prs": 1,
+      "reviews": 0,
+      "total": 13
     }
   }
 }
