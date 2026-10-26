@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:04:49Z",
+  "generated_at": "2026-10-26T07:11:43Z",
   "username": "Romboter",
   "days": {
     "2025-11-27": {
@@ -1504,6 +1504,27 @@
         }
       }
     },
+    "2026-10-26": {
+      "sessions": 2,
+      "active_minutes": 0,
+      "input_tokens": 34,
+      "output_tokens": 8722,
+      "cache_read_tokens": 713504,
+      "cache_creation_tokens": 38288,
+      "models": {
+        "claude-opus-5-5": 8722
+      },
+      "longest_session_minutes": 0,
+      "message_count": 0,
+      "tool_uses": 20,
+      "harnesses": {
+        "claude": {
+          "input_tokens": 34,
+          "output_tokens": 8722,
+          "cache_creation_tokens": 38288
+        }
+      }
+    },
     "2026-10-18": {
       "sessions": 2,
       "active_minutes": 0,
@@ -1547,23 +1568,25 @@
       }
     },
     "2026-10-25": {
-      "sessions": 1,
+      "sessions": 13,
       "active_minutes": 0,
-      "input_tokens": 116,
-      "output_tokens": 55858,
-      "cache_read_tokens": 5574906,
-      "cache_creation_tokens": 142666,
+      "input_tokens": 1482,
+      "output_tokens": 623538,
+      "cache_read_tokens": 97161309,
+      "cache_creation_tokens": 1718928,
       "models": {
-        "claude-opus-5-5": 55858
+        "claude-haiku-5-5": 28347,
+        "claude-opus-5-5": 353524,
+        "claude-sonnet-5-5": 241667
       },
       "longest_session_minutes": 0,
-      "message_count": 0,
-      "tool_uses": 90,
+      "message_count": 552,
+      "tool_uses": 899,
       "harnesses": {
         "claude": {
-          "input_tokens": 116,
-          "output_tokens": 55858,
-          "cache_creation_tokens": 142666
+          "input_tokens": 1482,
+          "output_tokens": 623538,
+          "cache_creation_tokens": 1718928
         }
       }
     },
@@ -2745,6 +2768,13 @@
       "prs": 0,
       "reviews": 0,
       "total": 74
+    },
+    "2026-10-25": {
+      "commits": 0,
+      "issues": 0,
+      "prs": 0,
+      "reviews": 0,
+      "total": 132
     }
   }
 }
