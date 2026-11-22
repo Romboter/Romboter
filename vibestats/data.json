@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:56:58Z",
+  "generated_at": "2026-11-22T08:59:32Z",
   "username": "Romboter",
   "days": {
     "2025-11-30": {
@@ -1888,6 +1888,29 @@
         }
       }
     },
+    "2026-11-21": {
+      "sessions": 12,
+      "active_minutes": 0,
+      "input_tokens": 1314,
+      "output_tokens": 307457,
+      "cache_read_tokens": 96952946,
+      "cache_creation_tokens": 1421845,
+      "models": {
+        "<synthetic>": 0,
+        "claude-opus-5-5": 18127,
+        "claude-sonnet-5-5": 289330
+      },
+      "longest_session_minutes": 0,
+      "message_count": 0,
+      "tool_uses": 598,
+      "harnesses": {
+        "claude": {
+          "input_tokens": 1314,
+          "output_tokens": 307457,
+          "cache_creation_tokens": 1421845
+        }
+      }
+    },
     "2026-11-02": {
       "sessions": 2,
       "active_minutes": 0,
@@ -1928,6 +1951,29 @@
           "input_tokens": 318,
           "output_tokens": 188346,
           "cache_creation_tokens": 430245
+        }
+      }
+    },
+    "2026-11-22": {
+      "sessions": 4,
+      "active_minutes": 0,
+      "input_tokens": 834,
+      "output_tokens": 299609,
+      "cache_read_tokens": 95561337,
+      "cache_creation_tokens": 833579,
+      "models": {
+        "<synthetic>": 0,
+        "claude-opus-5-5": 31803,
+        "claude-sonnet-5-5": 267806
+      },
+      "longest_session_minutes": 0,
+      "message_count": 0,
+      "tool_uses": 391,
+      "harnesses": {
+        "claude": {
+          "input_tokens": 834,
+          "output_tokens": 299609,
+          "cache_creation_tokens": 833579
         }
       }
     },
@@ -3241,6 +3287,20 @@
       "prs": 2,
       "reviews": 0,
       "total": 83
+    },
+    "2026-11-21": {
+      "commits": 1,
+      "issues": 0,
+      "prs": 2,
+      "reviews": 0,
+      "total": 213
+    },
+    "2026-11-22": {
+      "commits": 0,
+      "issues": 0,
+      "prs": 2,
+      "reviews": 0,
+      "total": 32
     }
   }
 }
