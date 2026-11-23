@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T08:59:32Z",
+  "generated_at": "2026-11-23T09:57:51Z",
   "username": "Romboter",
   "days": {
     "2025-11-30": {
@@ -1955,25 +1955,25 @@
       }
     },
     "2026-11-22": {
-      "sessions": 4,
+      "sessions": 9,
       "active_minutes": 0,
-      "input_tokens": 834,
-      "output_tokens": 299609,
-      "cache_read_tokens": 95561337,
-      "cache_creation_tokens": 833579,
+      "input_tokens": 1764,
+      "output_tokens": 576022,
+      "cache_read_tokens": 216134492,
+      "cache_creation_tokens": 1718596,
       "models": {
         "<synthetic>": 0,
         "claude-opus-5-5": 31803,
-        "claude-sonnet-5-5": 267806
+        "claude-sonnet-5-5": 544219
       },
       "longest_session_minutes": 0,
       "message_count": 0,
-      "tool_uses": 391,
+      "tool_uses": 760,
       "harnesses": {
         "claude": {
-          "input_tokens": 834,
-          "output_tokens": 299609,
-          "cache_creation_tokens": 833579
+          "input_tokens": 1764,
+          "output_tokens": 576022,
+          "cache_creation_tokens": 1718596
         }
       }
     },
@@ -3300,7 +3300,7 @@
       "issues": 0,
       "prs": 2,
       "reviews": 0,
-      "total": 32
+      "total": 130
     }
   }
 }
