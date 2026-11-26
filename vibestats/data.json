@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:39:51Z",
+  "generated_at": "2026-11-26T10:10:06Z",
   "username": "Romboter",
   "days": {
     "2025-11-30": {
@@ -1762,24 +1762,24 @@
       }
     },
     "2026-11-25": {
-      "sessions": 4,
+      "sessions": 6,
       "active_minutes": 0,
-      "input_tokens": 518,
-      "output_tokens": 101056,
-      "cache_read_tokens": 34477156,
-      "cache_creation_tokens": 489355,
+      "input_tokens": 760,
+      "output_tokens": 162400,
+      "cache_read_tokens": 50453745,
+      "cache_creation_tokens": 783093,
       "models": {
         "<synthetic>": 0,
-        "claude-sonnet-5-5": 101056
+        "claude-sonnet-5-5": 162400
       },
       "longest_session_minutes": 0,
       "message_count": 0,
-      "tool_uses": 230,
+      "tool_uses": 324,
       "harnesses": {
         "claude": {
-          "input_tokens": 518,
-          "output_tokens": 101056,
-          "cache_creation_tokens": 489355
+          "input_tokens": 760,
+          "output_tokens": 162400,
+          "cache_creation_tokens": 783093
         }
       }
     },
@@ -3383,9 +3383,16 @@
     "2026-11-25": {
       "commits": 0,
       "issues": 0,
-      "prs": 3,
+      "prs": 4,
       "reviews": 0,
-      "total": 43
+      "total": 81
+    },
+    "2026-11-26": {
+      "commits": 0,
+      "issues": 0,
+      "prs": 1,
+      "reviews": 0,
+      "total": 0
     }
   }
 }
